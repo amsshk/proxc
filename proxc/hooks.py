@@ -1,7 +1,7 @@
 app_name = "proxc"
 app_title = "PROXC"
 app_publisher = "admin@ezdevsoft.net"
-app_description = "PROXC Accounting Managment Software"
+app_description = "PROXC Accounting Management Software"
 app_email = "admin@ezdevsoft.net"
 app_license = "mit"
 
@@ -25,8 +25,8 @@ app_license = "mit"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/proxc/css/proxc.css"
-# app_include_js = "/assets/proxc/js/proxc.js"
+app_include_css = "/assets/proxc/css/proxc.css"
+app_include_js = "/assets/proxc/js/proxc.js"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/proxc/css/proxc.css"

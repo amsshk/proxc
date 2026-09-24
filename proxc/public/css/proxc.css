@@ -1,0 +1,106 @@
+/* =========================================================
+   PROXC — Accounting Management Software
+   ========================================================= */
+
+:root {
+    --proxc-primary: #111827;
+    --proxc-accent: #7c3aed;
+    --proxc-border: #e5e7eb;
+}
+
+/* ---------------------------------------------------------
+   Global ERP background
+   --------------------------------------------------------- */
+
+body {
+    background:
+        linear-gradient(135deg,
+            rgba(255,255,255,.98) 0%,
+            rgba(246,247,249,.96) 45%,
+            rgba(255,255,255,.99) 100%);
+}
+
+/* Subtle low-poly / crystalline facets */
+.layout-main-section,
+.layout-main-section-wrapper {
+    background:
+        linear-gradient(145deg,
+            rgba(255,255,255,.97),
+            rgba(247,248,250,.94));
+}
+
+.page-container {
+    position: relative;
+}
+
+.page-container::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: .16;
+
+    background:
+        linear-gradient(135deg,
+            transparent 48%,
+            rgba(210,214,220,.45) 49%,
+            transparent 51%),
+        linear-gradient(45deg,
+            transparent 48%,
+            rgba(255,255,255,.9) 49%,
+            transparent 51%);
+
+    background-size: 180px 180px;
+}
+
+/* ---------------------------------------------------------
+   Navigation
+   --------------------------------------------------------- */
+
+.navbar {
+    border-bottom: 1px solid var(--proxc-border);
+}
+
+.navbar-brand {
+    font-weight: 700;
+    letter-spacing: -.02em;
+}
+
+/* ---------------------------------------------------------
+   Workspace
+   --------------------------------------------------------- */
+
+.widget {
+    border-radius: 12px;
+}
+
+.page-head .title-text {
+    font-weight: 700;
+}
+
+/* ---------------------------------------------------------
+   Sidebar
+   --------------------------------------------------------- */
+
+.desk-sidebar {
+    border-right: 1px solid var(--proxc-border);
+}
+
+.standard-sidebar-item.selected,
+.standard-sidebar-item:hover {
+    border-radius: 8px;
+}
+
+/* ---------------------------------------------------------
+   Forms / buttons
+   --------------------------------------------------------- */
+
+.form-control,
+.input-with-feedback,
+.awesomplete > input {
+    border-radius: 8px;
+}
+
+.btn-primary {
+    border-radius: 8px;
+}
