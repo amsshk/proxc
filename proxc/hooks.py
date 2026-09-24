@@ -25,10 +25,8 @@ app_license = "mit"
 # ------------------
 
 # include js, css files in header of desk.html
-app_include_css = "/assets/proxc/css/proxc.css"
-app_include_js = "/assets/proxc/js/proxc.js"
-web_include_css = "/assets/proxc/css/proxc.css"
-web_include_js = "/assets/proxc/js/proxc.js"
+# PROXC Desk assets disabled temporarily to preserve native ERPNext UI.
+# PROXC website assets disabled temporarily.
 
 # include js, css files in header of web template
 # web_include_css = "/assets/proxc/css/proxc.css"
